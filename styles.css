@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "qualy";
+    src: url(/Qualy\ Bold.ttf);
+}
+
+
+
+html, body {
+    font-family: "qualy";
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f8f9fd;
+}
+
+h3{
+    font-size: 1.5em;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+#menu{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    width: 60%;
+}
+#wrapper{
+    display: flex;
+    font-size: 0.9em;
+}
+
+#background{
+    position: relative;
+    background-image: url(/rye-jessen-1-kwYpT09WY-unsplash.jpg);
+    background-size:cover;
+    width: 40%;
+    height: 100%;
+}
+
+input{
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 3px;
+    border: #132527 1px solid;
+    font-family: inherit;
+    width: 200px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+input:focus{
+    
+    -webkit-appearance: none;
+    outline: none;
+    border: #11d8ee 1px solid;
+}
+
+#header{
+    width: 70%;
+}
+
+form{
+    height: 30%;
+    background-color: #eaeef4;
+    box-shadow: 0px 15px 8px -12px rgba(0,0,0,0.75);
+}
+h2,
+#wrapper,
+#footer,
+#header{
+    margin-left: 50px;
+}
+
+#footer{
+margin-top: -50px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: #132527;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 15px 8px -12px rgba(0,0,0,0.75);
+}
+
+a{
+    color: #132527; 
+    font-weight: bold;
+    text-decoration: none;
+}
+#login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#author{
+
+    position: absolute;
+    left: 35%;
+    top:95%;
+    color: white;
+    text-decoration: none;
+}
+
+#author a{
+    margin-left: 20px;
+    color: #8a9ead;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    opacity: 0.5;
+    width: 100%;
+    height: 20%;
+    background-color: #eaeef4;
+}
+img{
+    filter: grayscale(100%);
+    position: absolute;
+    top: 160px;
+    opacity: 0.8;
+    left: -10%;
+}
+
+#altersandr{
+    text-shadow: #000000 2px 2px 10px;
+    color: #eaeef4;
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    font-size: 50px;
+    margin-right: 50px;
+}
